@@ -225,20 +225,6 @@ git-tree-sha1 = "d05a3a25b762720d40246d5bedf518c9c2614ef5"
 uuid = "d38c429a-6771-53c6-b99e-75d170b6e991"
 version = "0.5.5"
 
-[[CoolProp]]
-deps = ["Compat", "CoolProp_jll", "JSON", "LibGit2", "Libdl", "Markdown", "Unitful"]
-git-tree-sha1 = "d80079b414d76182d864f5061c83d8b29a327dfb"
-repo-rev = "use-jll"
-repo-url = "https://github.com/barche/CoolProp.jl.git"
-uuid = "e084ae63-2819-5025-826e-f8e611a84251"
-version = "0.0.0"
-
-[[CoolProp_jll]]
-deps = ["Libdl", "Pkg"]
-git-tree-sha1 = "a4ba4da3ed381dae5de41ecb42105434f599720d"
-uuid = "3351c21f-4feb-5f29-afb9-f4fcb0e27549"
-version = "6.4.1+0"
-
 [[CoordinateTransformations]]
 deps = ["LinearAlgebra", "StaticArrays"]
 git-tree-sha1 = "c230b1d94db9fdd073168830437e64b9db627fcb"
