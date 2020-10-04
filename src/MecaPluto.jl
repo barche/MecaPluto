@@ -3,12 +3,14 @@ module MecaPluto
 export runpluto
 
 import Pluto
-
-using Pkg
-pkg"add https://github.com/barche/CoolProp.jl.git#use-jll"
+import Pkg
 
 function __init__()
-  ENV["PLUTO_DEFAULT_ENVIRONMENT_PATH"] = dirname(@__DIR__)
+  envdir = joinpath(@__DIR__,"env")
+  ENV["PLUTO_DEFAULT_ENVIRONMENT_PATH"] = envdir
+
+  Pkg.activate(envdir)
+  Pkg.instantiate()
 end
 
 function runpluto()
