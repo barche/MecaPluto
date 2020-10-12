@@ -64,10 +64,10 @@ deps = ["Dates", "LibGit2", "Libdl", "Logging", "Markdown", "Printf", "REPL", "R
 uuid = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
 [[Pluto]]
-deps = ["Base64", "Distributed", "HTTP", "InteractiveUtils", "Markdown", "MsgPack", "Pkg", "REPL", "Sockets", "UUIDs"]
-git-tree-sha1 = "3286e04b49d7102e0c8f7181196749e2e22a134c"
+deps = ["Base64", "Dates", "Distributed", "HTTP", "InteractiveUtils", "Logging", "Markdown", "MsgPack", "Pkg", "REPL", "Sockets", "UUIDs"]
+git-tree-sha1 = "90aa203b0ed2aeb53b2abbc4f150fdf5a468dfff"
 uuid = "c3e4b0f8-55cb-11ea-2926-15256bba5781"
-version = "0.11.14"
+version = "0.12.3"
 
 [[Printf]]
 deps = ["Unicode"]
